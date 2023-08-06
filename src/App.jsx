@@ -12,6 +12,8 @@ import {
   Testimonials 
 } from './components'
 import styles from './style'
+import Login from './components/Login'
+import CodingChallenge from './components/CodingChallenge'
 
 const App = () => {
   return (
@@ -35,9 +37,12 @@ const App = () => {
           <Testimonials/>
           <Clients/>
           <CTA/>
-          <Footer/>     
+          <Footer/> 
+          <CodingChallenge/>
+            
         </div>
       </div>
+      
     </div>
   )
 }

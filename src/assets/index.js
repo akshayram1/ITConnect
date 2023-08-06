@@ -4,7 +4,7 @@ import microsoft from "./microsoft.png";
 import card from "./card.png";
 import google1 from "./google1.png";
 import facebook1 from "./facebook1.png";
-import logo from "./logo.svg";
+import itConnect from "./itConnect.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -31,7 +31,7 @@ export {
   card,
   google,
   facebook1,
-  logo,
+  itConnect,
   quotes,
   robot,
   send,
