@@ -38,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Rewarding Opportunities",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "At ITConnect, we provide freelancers and developers with rewarding opportunities that combine promotions and prizes to enhance your career journey.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Secured Collaborations",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Your security matters. We take proactive measures to ensure that your information and transactions are protected, fostering a secure environment for collaboration.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Streamlined Project Transfers",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Managing projects becomes effortless. With our streamlined process, you can transfer projects seamlessly, optimizing efficiency and saving valuable time and resources.",
   },
 ];
 
