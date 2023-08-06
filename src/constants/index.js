@@ -2,14 +2,14 @@ import {
   people01, 
   people02, 
   people03, 
-  facebook, 
+  facebook1, 
   instagram, 
   linkedin, 
   twitter, 
-  airbnb, 
-  binance, 
-  coinbase, 
-  dropbox, 
+  amazon, 
+  microsoft, 
+  google1, 
+  facebook, 
   send, 
   shield, 
   star
@@ -25,12 +25,12 @@ export const navLinks = [
     title: "Services",
   },
   {
-    id: "about",
-    title: "About Us",
+    id: "Community",
+    title: "Community",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "about",
+    title: "About Us",
   },
 ];
 
@@ -62,25 +62,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Virtual IT Company transformed our business. Top-notch virtual technology and team collaboration tools streamlined operations efficiently.",
+    name: "Nayan Sharma",
+    title: "CEO, TechPro Solutions",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Best decision partnering with Virtual IT Company. Cloud computing and AI-based solutions improved productivity, reduced costs.",
+    name: "Aryan Gupta",
+    title: "CTO, InnovateX",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Reliable IT support for startups. Virtual IT Company's flexible plans enable focus on growth and innovation.",
+    name: "Rajiv Patel",
+    title: "Co-Founder, NexGen Startups",
     img: people03,
   },
 ];
@@ -195,18 +195,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: amazon,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: microsoft,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: google1,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: facebook1,
   },
 ];

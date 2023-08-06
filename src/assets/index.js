@@ -1,9 +1,9 @@
-import airbnb from "./airbnb.png";
+import amazon from "./amazon.png";
 import bill from "./bill.png";
-import binance from "./binance.png";
+import microsoft from "./microsoft.png";
 import card from "./card.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
+import google1 from "./google1.png";
+import facebook1 from "./facebook1.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -25,12 +25,12 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 
 export {
-  airbnb,
+  amazon,
   bill,
-  binance,
+  microsoft,
   card,
-  coinbase,
-  dropbox,
+  google,
+  facebook1,
   logo,
   quotes,
   robot,
@@ -39,7 +39,7 @@ export {
   star,
   menu,
   close,
-  google,
+  google1,
   apple,
   arrowUp,
   discount,
