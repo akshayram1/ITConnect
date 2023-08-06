@@ -19,19 +19,19 @@ const Hero = () => {
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
-            The Next <br className='sm:block hidden'/> {" "}
-            <span className='text-gradient'>Generation</span> {" "}
+           ITConnect- <br className='sm:block hidden'/> {" "}
+            <span className='text-gradient'>A Virtual Company</span> {" "}
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
             <GetStarted/>
           </div>
         </div>
-        <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
+        {/* <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
           Payment Method.
-        </h1>
+        </h1> */}
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
-        We examine annual percentage rates, annual fees.  
+        Are you looking to get hired? Why not take an AI-based test to showcase your skills and stand out from the crowd! Let artificial intelligence witness your capabilities and potential.
+        Embrace the future of hiring and demonstrate your abilities with cutting-edge technology. Grab the opportunity and let AI lead you to success!.  
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
