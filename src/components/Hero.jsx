@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[56px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
            ITConnect- <br className='sm:block hidden'/> {" "}
             <span className='text-gradient'>A Virtual Company</span> {" "}
           </h1>
@@ -30,8 +30,8 @@ const Hero = () => {
           Payment Method.
         </h1> */}
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Are you looking to get hired? Why not take an AI-based test to showcase your skills and stand out from the crowd! Let artificial intelligence witness your capabilities and potential.
-        Embrace the future of hiring and demonstrate your abilities with cutting-edge technology. Grab the opportunity and let AI lead you to success!.  
+        Are you looking to get hired? Why not take an AI-based test to showcase your skills and stand out from the crowd!
+        Unlock your potential with AI-based tests for hiring success. Embrace the future, showcase your skills, and stand out!
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
