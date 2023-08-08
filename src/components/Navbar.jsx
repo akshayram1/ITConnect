@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { close, itConnect, menu } from '../assets';
 import { navLinks } from '../constants';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -16,7 +18,7 @@ const Navbar = () => {
               i === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-white mr-10`}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href="/">{nav.title}</a>
           </li>
         ))}
       </ul>
@@ -46,8 +48,11 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <button className='bg-blue-gradient font-poppins font-medium text-[18px] text-white outline-none py-2 px-4 rounded-[10px]'>Login</button>
-     
+      <Link to="/Login">
+  <button className='bg-blue-gradient font-poppins font-medium text-[18px] text-white outline-none py-2 px-4 rounded-[10px]'>
+    Login
+  </button>
+</Link>
     </nav>
   );
 };
